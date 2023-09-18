@@ -112,12 +112,12 @@ $(function() {
 , <a class="el" href="classripple_1_1LedgerReplayTask.html#af0783fcd79cc39e50e4c35ea24f1b21b">ripple::LedgerReplayTask</a>
 </li>
 <li>parentCloseTime
-: <a class="el" href="structripple_1_1LedgerInfo.html#a3f7b6fb6d401cfc76e0179b061e02eb4">ripple::LedgerInfo</a>
+: <a class="el" href="structripple_1_1LedgerHeader.html#acbaff4abb7243e02f45e63bd19843aa9">ripple::LedgerHeader</a>
 , <a class="el" href="structripple_1_1test_1_1csf_1_1Ledger_1_1Instance.html#a1c94fff3c3a71f68aaad45b435e19bc7">ripple::test::csf::Ledger::Instance</a>
 </li>
 <li>parentHash
 : <a class="el" href="structripple_1_1LedgerHashPair.html#a9d5c3af96a015921da17b40ea48012cd">ripple::LedgerHashPair</a>
-, <a class="el" href="structripple_1_1LedgerInfo.html#a5c129196edfd78e992f81959f075e5ca">ripple::LedgerInfo</a>
+, <a class="el" href="structripple_1_1LedgerHeader.html#ab8fd6d4be4001febfe6f2e2b399dfa48">ripple::LedgerHeader</a>
 </li>
 <li>parentHash_
 : <a class="el" href="classripple_1_1TxQ.html#a71a301b0a48137d7121dda3b66db2fb5">ripple::TxQ</a>
@@ -193,6 +193,12 @@ $(function() {
 <li>payAccounts_
 : <a class="el" href="structripple_1_1NodeStore_1_1DatabaseShard__test_1_1TestData.html#a2467e9984b4252be6f655e178b348892">ripple::NodeStore::DatabaseShard_test::TestData</a>
 </li>
+<li>payee
+: <a class="el" href="structripple_1_1test_1_1jtx_1_1XChainBridgeObjects.html#a5b1629d1cf878571512682bf4644f8e6">ripple::test::jtx::XChainBridgeObjects</a>
+</li>
+<li>payees
+: <a class="el" href="structripple_1_1test_1_1jtx_1_1XChainBridgeObjects.html#ae9dcd0eb18ea5ec90dd6a07480c79398">ripple::test::jtx::XChainBridgeObjects</a>
+</li>
 <li>payload1
 : <a class="el" href="classripple_1_1STValidation__test.html#a37765bba676237e5c19a516426d3199b">ripple::STValidation_test</a>
 </li>
@@ -224,6 +230,9 @@ $(function() {
 </li>
 <li>payload_wire_size
 : <a class="el" href="structripple_1_1detail_1_1MessageHeader.html#a99f21dbc5ff1d473f488cfcfdf3f07de">ripple::detail::MessageHeader</a>
+</li>
+<li>payor_
+: <a class="el" href="structripple_1_1test_1_1BalanceTransfer.html#ac96bbd5ca60112c5a94aff22aa498c14">ripple::test::BalanceTransfer&lt; T &gt;</a>
 </li>
 <li>peer_
 : <a class="el" href="classripple_1_1test_1_1Link.html#aa9a7992cf457de8903672f923c178fba">ripple::test::Link</a>
@@ -375,7 +384,7 @@ $(function() {
 : <a class="el" href="structripple_1_1ConsensusResult.html#afc0376d9cf4dfd013539594b7b8bbbde">ripple::ConsensusResult&lt; Traits &gt;</a>
 </li>
 <li>position_
-: <a class="el" href="classripple_1_1ConsensusProposal.html#a860f0abb9aef8bd8bea69e67e4d33c02">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t &gt;</a>
+: <a class="el" href="classripple_1_1ConsensusProposal.html#a8e84a2b11e116f1d074783649b6816ff">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t, Seq &gt;</a>
 </li>
 <li>potentialSpend_
 : <a class="el" href="classripple_1_1TxConsequences.html#af451d615f5153a98a6fa0556c3bd35d2">ripple::TxConsequences</a>
@@ -422,7 +431,7 @@ $(function() {
 </li>
 <li>previousLedger_
 : <a class="el" href="classripple_1_1Consensus.html#a524a13145148ff9d6e69328577a11446">ripple::Consensus&lt; Adaptor &gt;</a>
-, <a class="el" href="classripple_1_1ConsensusProposal.html#a742fc2338165bbd58af3af6c7f59c201">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t &gt;</a>
+, <a class="el" href="classripple_1_1ConsensusProposal.html#afe7021035cf5521461ba5e0515c4ed27">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t, Seq &gt;</a>
 </li>
 <li>previousLedgerHash_
 : <a class="el" href="classripple_1_1PeerImp.html#a98c400cc69a072ae5dd425113babc0fb">ripple::PeerImp</a>
@@ -504,7 +513,7 @@ $(function() {
 : <a class="el" href="structripple_1_1ConsensusResult.html#adbe9cfc54c331e78706ffcba7a0f35a3">ripple::ConsensusResult&lt; Traits &gt;</a>
 </li>
 <li>proposeSeq_
-: <a class="el" href="classripple_1_1ConsensusProposal.html#a4deadd017bafaa3ea45a1a441080ae7c">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t &gt;</a>
+: <a class="el" href="classripple_1_1ConsensusProposal.html#a0645ae909daf758492df4482d17fc410">ripple::ConsensusProposal&lt; NodeID_t, LedgerID_t, Position_t, Seq &gt;</a>
 </li>
 <li>props_
 : <a class="el" href="structripple_1_1test_1_1jtx_1_1JTx.html#ae7874b955b38347e3a585aef4dd669a3">ripple::test::jtx::JTx</a>
@@ -545,7 +554,10 @@ $(function() {
 : <a class="el" href="structripple_1_1RPC_1_1key__strings.html#ac26be6cf899bc8cb35555702a7338e63">ripple::RPC::key_strings</a>
 </li>
 <li>publicKey
-: <a class="el" href="classripple_1_1ValidatorKeys.html#ac71b02b7b075bff4fcebdb750999cddc">ripple::ValidatorKeys</a>
+: <a class="el" href="structripple_1_1Attestations_1_1AttestationBase.html#a913876a9a5ab193f231571029be41c96">ripple::Attestations::AttestationBase</a>
+, <a class="el" href="classripple_1_1ValidatorKeys.html#ac71b02b7b075bff4fcebdb750999cddc">ripple::ValidatorKeys</a>
+, <a class="el" href="structripple_1_1XChainClaimAttestation.html#a51545f1aaa797192329f119bf5e0829f">ripple::XChainClaimAttestation</a>
+, <a class="el" href="structripple_1_1XChainCreateAccountAttestation.html#abc7652ac22279b903506b8994324bb05">ripple::XChainCreateAccountAttestation</a>
 </li>
 <li>publicKey_
 : <a class="el" href="classripple_1_1PeerImp.html#af30b1a251f7a0a3546bfbb645130b713">ripple::PeerImp</a>
